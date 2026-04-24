@@ -31,17 +31,17 @@ public class whileLoop {
 
         //----------------print 1 to N numbers-------------------     
         
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int sum = 0;
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int sum = 0;
 
-        int i = 1;
-        while (i <= n) {
-            System.out.print(i + " ");
-            sum += i;
-            i++;
-        }
-        System.out.println("Sum is :- " + sum);
+        // int i = 1;
+        // while (i <= n) {
+        //     System.out.print(i + " ");
+        //     sum += i;
+        //     i++;
+        // }
+        // System.out.println("Sum is :- " + sum);
         
 
     }
