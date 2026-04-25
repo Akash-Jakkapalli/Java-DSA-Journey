@@ -1,6 +1,5 @@
 package loops;
 
-import java.util.Scanner;
 
 public class whileLoop {
     public static void main(String[] args) {
