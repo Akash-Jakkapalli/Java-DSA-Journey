@@ -66,12 +66,27 @@ public class pattern {
         // }
 
         /*
-            * * * * *
-            *       *
-            *       *
-            * * * * *
+            * * * *
+            *     *
+            *     *
+            * * * *
         */
+        // int totRow = 4;
+        // int totCol = 4;
 
+        // outer loop for row
+        // for(int i=1; i<=totRow; i++){
+        //     // inner loop for col
+        //     for(int j=1; j<=totCol; j++){
+        //         //what we have to print here?
+        //         if(i == 1 || i == totRow || j==1 || j==totCol){
+        //             System.out.print("*");
+        //         }else{
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
         
     }
 }
