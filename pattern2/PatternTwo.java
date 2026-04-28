@@ -54,8 +54,11 @@ public class PatternTwo {
     7  8  9  10
     11 12 13 14 15
     */
-    public static void flouds_Tringle(int n, int counter){
+    public static void flouds_Tringle(int n){
+        // outer loop that tracks the number of Lines
+        int counter = 1;
         for(int i=1; i<=n; i++){
+            // Inner loop it will print the counter
             for(int j=1; j<=i; j++){
                 System.out.print(counter + " ");
                 counter++;
@@ -63,14 +66,39 @@ public class PatternTwo {
             System.out.println();
         } 
     }
+
+    /*
+        1
+        0 1
+        1 0 1
+        0 1 0 1
+        1 0 1 0 1
+    */
+
+    public static void ZeroOne_Tringle(int n){
+
+        //outer loop
+        for(int i=1; i<=n; i++){
+            //inner loop if position of 1 ==> add position row and col if == even then print 1 else 0
+            for(int j=1; j<=i; j++){
+                if ((i+j) % 2 == 0) {
+                    System.out.print("1" + " ");
+                }else{
+                    System.out.print("0" + " ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     
 
-
-
+    
     public static void main(String[] args) {
         // printpiramid(4);
         // Print_Invert_half_Piramid_Num(5);
-        flouds_Tringle(5, 1);
+        // flouds_Tringle(5);
+        // ZeroOne_Tringle(5);
  
     }
 }
