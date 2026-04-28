@@ -2,6 +2,13 @@ package pattern2;
 
 public class PatternTwo {
 
+
+    /*
+           *
+          **
+         ***
+        ****
+    */
     public static void printpiramid(int n){
 
         for(int i=1; i<=n; i++){
@@ -15,7 +22,33 @@ public class PatternTwo {
             System.out.println();
         }
     }
+
+    /*
+
+    1 2 3 4 5
+    1 2 3 4
+    1 2 3
+    1 2
+    1
+
+    */
+
+    public static void Print_Invert_half_Piramid_Num(int n){
+
+        //outer loop
+        for(int i=1; i<=n; i++){
+            //outer loop
+            for(int j=1; j<=n-i+1; j++){
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+
     public static void main(String[] args) {
-        printpiramid(4);
+        // printpiramid(4);
+        // Print_Invert_half_Piramid_Num(5);
     }
 }
