@@ -2,6 +2,7 @@ package pattern2;
 
 public class PatternTwo {
 
+// --------------------------------------------
 
     /*
            *
@@ -23,16 +24,15 @@ public class PatternTwo {
         }
     }
 
+// --------------------------------------------
+
     /*
-
-    1 2 3 4 5
-    1 2 3 4
-    1 2 3
-    1 2
-    1
-
+        1 2 3 4 5
+        1 2 3 4
+        1 2 3
+        1 2
+        1
     */
-
     public static void Print_Invert_half_Piramid_Num(int n){
 
         //outer loop
@@ -45,10 +45,32 @@ public class PatternTwo {
         }
     }
 
+// --------------------------------------------
+
+    /*
+    1
+    2  3
+    4  5  6
+    7  8  9  10
+    11 12 13 14 15
+    */
+    public static void flouds_Tringle(int n, int counter){
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(counter + " ");
+                counter++;
+            }
+            System.out.println();
+        } 
+    }
+    
+
 
 
     public static void main(String[] args) {
         // printpiramid(4);
         // Print_Invert_half_Piramid_Num(5);
+        flouds_Tringle(5, 1);
+ 
     }
 }
