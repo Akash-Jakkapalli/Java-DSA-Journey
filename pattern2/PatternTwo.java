@@ -91,6 +91,62 @@ public class PatternTwo {
         }
     }
 
+    /*
+
+    *             * 
+    * *         * * 
+    * * *     * * * 
+    * * * * * * * * 
+    * * * * * * * * 
+    * * *     * * * 
+    * *         * * 
+    *             * 
+    
+    */
+
+    public static void butterfly(int n){
+        // 1st half
+        for (int i=1; i<=n; i++){
+
+            //stars
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+
+            //spaces --> 2 * (n - 1)
+            for(int j=1; j<= 2*(n-i); j++){
+                System.out.print(" ");
+            }
+
+            //stars
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        //2nd half
+        for(int i=n; i>=1; i--){
+            //stars
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+
+            //spaces --> 2 * (n - 1)
+            for(int j=1; j<= 2*(n-i); j++){
+                System.out.print(" ");
+            }
+
+            //stars
+            for(int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    
+
     
 
     
@@ -99,6 +155,9 @@ public class PatternTwo {
         // Print_Invert_half_Piramid_Num(5);
         // flouds_Tringle(5);
         // ZeroOne_Tringle(5);
+        butterfly(5);
+
+
  
     }
 }
