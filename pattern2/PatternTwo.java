@@ -145,7 +145,8 @@ public class PatternTwo {
         }
     }
 
-    /*
+    /* Solid_Rhombus
+
                 * * * * * * 
               * * * * * * 
             * * * * * * 
@@ -169,6 +170,38 @@ public class PatternTwo {
             System.out.println();
         }
     }
+
+    /* Hollow Rhombus
+
+                * * * * * * 
+              *         * 
+            *         * 
+          *         * 
+        * * * * * * 
+        
+    */
+
+    public static void Hollow_Rhombus(int n){
+        // outer loop 1 to n
+        for(int i=1; i<=n; i++){
+            // print spaces
+            for(int j=1; j<=n-i; j++){
+                System.out.print(" ");
+            }
+
+            // print stars
+            for(int j=1; j<=n; j++){
+                
+                if(i == 1 || i == n || j == 1 || j == n){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();      
+        }
+    }
+    
     
     public static void main(String[] args) {
         // printpiramid(4);
@@ -176,7 +209,8 @@ public class PatternTwo {
         // flouds_Tringle(5);
         // ZeroOne_Tringle(5);
         // butterfly(5);
-        Solid_Rhombus(5);
+        // Solid_Rhombus(5);
+        // Hollow_Rhombus(5);
 
 
  
