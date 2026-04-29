@@ -124,7 +124,7 @@ public class PatternTwo {
             }
             System.out.println();
         }
-        
+
         //2nd half
         for(int i=n; i>=1; i--){
             //stars
@@ -145,6 +145,21 @@ public class PatternTwo {
         }
     }
 
+    /*
+                * * * * * * 
+              * * * * * * 
+            * * * * * * 
+          * * * * * * 
+        * * * * * * 
+        
+    */
+
+    public static void Solid_Rhombus(int n){
+        for(int i=1; i<=n; i++){
+
+        }
+    }
+
     
 
     
@@ -155,7 +170,7 @@ public class PatternTwo {
         // Print_Invert_half_Piramid_Num(5);
         // flouds_Tringle(5);
         // ZeroOne_Tringle(5);
-        butterfly(5);
+        // butterfly(5);
 
 
  
