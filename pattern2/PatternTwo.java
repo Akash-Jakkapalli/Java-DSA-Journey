@@ -66,6 +66,7 @@ public class PatternTwo {
             System.out.println();
         } 
     }
+// --------------------------------------------
 
     /*
         1
@@ -90,6 +91,7 @@ public class PatternTwo {
             System.out.println();
         }
     }
+// --------------------------------------------
 
     /*
 
@@ -145,6 +147,8 @@ public class PatternTwo {
         }
     }
 
+// --------------------------------------------
+
     /* Solid_Rhombus
 
                 * * * * * * 
@@ -170,6 +174,9 @@ public class PatternTwo {
             System.out.println();
         }
     }
+
+    // --------------------------------------------
+
 
     /* Hollow Rhombus
 
@@ -201,6 +208,20 @@ public class PatternTwo {
             System.out.println();      
         }
     }
+
+// --------------------------------------------
+
+    /*
+             *
+           * * *
+         * * * * * 
+        * * * * * * 
+         * * * * *
+           * * *
+             *
+
+    */
+
     
     
     public static void main(String[] args) {
