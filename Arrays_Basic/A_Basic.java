@@ -2,7 +2,7 @@ package Arrays_Basic;
 
 import java.util.Scanner;
 
-public class ArrayCC {
+public class A_Basic {
     public static void main(String[] args) {
 
         // Input
